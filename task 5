@@ -1,0 +1,9 @@
+prices_list = [100, 25, 34, 243, 123, 32, 14, 67, 34, 90]
+one_ruble = 100
+print(id(prices_list))
+print(" ".join([f"{int(value//one_ruble)} руб {int(value%one_ruble)}коп,"for value in prices_list]))
+prices_list.sort()
+print(" ".join([f"{int(value//one_ruble)} руб {int(value%one_ruble)}коп,"for value in prices_list]))
+print(id(prices_list))
+print(" ".join([f"{int(value//one_ruble)} руб {int(value%one_ruble)}коп,"for value in reversed(sorted(prices_list))]))
+#не смог найти максимальные 5 значений
