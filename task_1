@@ -1,0 +1,12 @@
+# Задание 1
+x = 15*3
+print(type(x))
+# Cделал проверку прочто для себя
+if isinstance(x, int):
+    print('Число')
+y = 15/3
+print(type(y))
+z = 15//2
+print(type(z))
+h = 15**2
+print(type(h))
